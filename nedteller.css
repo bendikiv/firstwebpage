@@ -1,0 +1,52 @@
+body {
+    background-color: #262626;
+    color: #ffffff;
+}
+
+main {
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  background-color: black;
+}
+
+output {
+  text-align: center;
+  font-size: 30px;
+}
+
+.buttons {
+
+}
+
+.buttons button {
+  width: 30%;
+  height: 50px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  font-size: 26px;
+}
+
+.buttons button:hover {
+  background-color: #262626;
+  cursor: pointer;
+}
+
+.buttons button:focus {
+  background-color: white;
+}
+
+.startbutton {
+  width: 50%;
+  height: 50px;
+  margin: 5px;
+  background-color: #fd5158;
+  color: white;
+  font-size: 26px;
+}
+
+.startbutton:hover {
+  cursor: pointer;
+  background-color: red;
+}
