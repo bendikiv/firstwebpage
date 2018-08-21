@@ -6,13 +6,15 @@ container.addEventListener('click', function(event) {
     const element = event.target;
 
     if(element.nodeName == 'BUTTON'){
-      const currentNumber = output.textContent;
+      let currentNumber = output.textContent;
+      let clickedNumber = element.textContent;
       if (currentNumber==='0'){
-        ocurrentNumber = element.textContent;
+        clickedNumber = element.textContent;
+        console.log(currentNumber);
       } else {
-        currentNumber = element.textContent;
+        clickedNumber = element.textContent;
       }
-
+      output.textContent = clickedNumber;
     }
 });
 
